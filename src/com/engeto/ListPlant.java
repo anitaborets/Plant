@@ -9,8 +9,7 @@ import java.util.Scanner;
 public class ListPlant {
     ArrayList<Plant> listPlant = new ArrayList<>();
     public static final String DELIMITER = ";";;
-    private Object PrintWriter;
-
+    
     public void addPlant(Plant newPlant) {
         listPlant.add(newPlant);
     }
