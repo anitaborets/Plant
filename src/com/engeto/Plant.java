@@ -22,7 +22,9 @@ public class Plant {
     public Plant(String name, String notes, LocalDate watering) {
         this.name = name;
         this.notes = "";
+        this.planted = planted;
         this.watering = LocalDate.now();
+        setFrequencyOfWatering(frequencyOfWatering);
     }
     public Plant(String name) {
         this.name = name;
